@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wafly-dev-222314-authRole",
+      "UnauthRoleArn": "arn:aws:iam::385708539122:role/amplify-wafly-dev-222314-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::385708539122:role/amplify-wafly-dev-222314-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-wafly-dev-222314-deployment",
+      "UnauthRoleName": "amplify-wafly-dev-222314-unauthRole",
+      "StackName": "amplify-wafly-dev-222314",
+      "StackId": "arn:aws:cloudformation:eu-central-1:385708539122:stack/amplify-wafly-dev-222314/3a1777d0-0740-11eb-927a-061de7083ac6",
+      "AmplifyAppId": "d3sifs225h403n"
+    },
+    "categories": {
+      "auth": {
+        "waflye9203e8c": {}
+      }
+    }
+  }
+}
