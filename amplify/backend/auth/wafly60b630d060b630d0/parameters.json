@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "waflye9203e8c_identitypool_e9203e8c",
+    "identityPoolName": "wafly60b630d0_identitypool_60b630d0",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "waflye9203e8c",
-    "userPoolName": "waflye9203e8c_userpool_e9203e8c",
+    "resourceNameTruncated": "wafly660b630d0",
+    "userPoolName": "wafly60b630d0_userpool_60b630d0",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -18,7 +18,8 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-        "email"
+        "email",
+        "name"
     ],
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
@@ -28,11 +29,20 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "waflyee9203e8c_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "wafly660b630d0_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "e9203e8c",
-    "resourceName": "waflye9203e8c",
+    "useDefault": "manual",
     "authSelections": "identityPoolAndUserPool",
+    "resourceName": "wafly60b630d060b630d0",
+    "thirdPartyAuth": false,
+    "usernameAttributes": [
+        "email"
+    ],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": "{}",
+    "hostedUI": false,
+    "userPoolGroupList": [],
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",
@@ -45,10 +55,9 @@
             "Arn"
         ]
     },
-    "useDefault": "default",
-    "usernameAttributes": [
-        "email"
-    ],
-    "userPoolGroupList": [],
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
     "dependsOn": []
 }

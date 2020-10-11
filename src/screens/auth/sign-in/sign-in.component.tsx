@@ -1,17 +1,21 @@
 import React from 'react';
+import { Auth } from 'aws-amplify';
 import { Text, View, StyleSheet, KeyboardAvoidingView } from 'react-native';
 
 import { SignInProps } from './sign-in.props';
-import { useSignInForm } from './sign-in.form';
+import { ScreenName } from '../../../constants';
 import { FormInput, Button } from '../../../components';
+import { FormFields, useSignInForm } from './sign-in.form';
 
-export const SignIn: React.FC<SignInProps> = () => {
+export const SignIn: React.FC<SignInProps> = ({ navigation }) => {
   const { handleSubmit, errors, control } = useSignInForm();
 
-  const onSubmit = () => {
+  const onSubmit = async (fields: FormFields) => {
     console.log('---------------');
     console.log('Sign in');
     console.log('---------------');
+    await Auth.signIn(fields.email, fields.password);
+    navigation.navigate(ScreenName.HOME);
   };
 
   return (
@@ -35,7 +39,16 @@ export const SignIn: React.FC<SignInProps> = () => {
           error={errors.password?.message}
         />
 
-        <Button containerStyle={styles.button} title="Forgot Password?" onPress={handleSubmit(onSubmit)} />
+        <Button
+          containerStyle={styles.button}
+          title="Forgot Password?"
+          onPress={() => navigation.navigate(ScreenName.FORGOT_PASSWORD)}
+        />
+        <Button
+          containerStyle={styles.button}
+          title="Sign up"
+          onPress={() => navigation.navigate(ScreenName.SIGN_UP)}
+        />
         <Button title="Sign in" onPress={handleSubmit(onSubmit)} />
       </View>
     </KeyboardAvoidingView>

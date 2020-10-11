@@ -1,17 +1,19 @@
 import React from 'react';
+import { Auth } from 'aws-amplify';
 import { Text, View, StyleSheet, KeyboardAvoidingView } from 'react-native';
 
 import { FormInput, Button } from '../../../components';
 import { ConfirmSignUpProps } from './confirm-sign-up.props';
-import { useConfirmSignUpForm } from './confirm-sign-up.form';
+import { useConfirmSignUpForm, FormFields } from './confirm-sign-up.form';
 
 export const ConfirmSignUp: React.FC<ConfirmSignUpProps> = () => {
   const { handleSubmit, errors, control } = useConfirmSignUpForm();
 
-  const onSubmit = () => {
+  const onSubmit = (fields: FormFields) => {
     console.log('---------------');
     console.log('Confirm sign up');
     console.log('---------------');
+    Auth.confirmSignUp(fields.email, fields.confirmationCode, { forceAliasCreation: true });
   };
 
   return (
@@ -19,6 +21,13 @@ export const ConfirmSignUp: React.FC<ConfirmSignUpProps> = () => {
       <Text style={styles.text}>Confirm Sign up</Text>
 
       <View style={styles.form}>
+        <FormInput
+          name="email"
+          control={control}
+          placeholder="Email"
+          containerStyle={styles.input}
+          error={errors.email?.message}
+        />
         <FormInput
           control={control}
           name="confirmationCode"

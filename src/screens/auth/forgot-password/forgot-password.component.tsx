@@ -1,17 +1,21 @@
 import React from 'react';
+import { Auth } from 'aws-amplify';
 import { Text, View, StyleSheet, KeyboardAvoidingView } from 'react-native';
 
+import { ScreenName } from '../../../constants';
 import { FormInput, Button } from '../../../components';
 import { ForgotPasswordProps } from './forgot-password.props';
-import { useForgotPasswordForm } from './forgot-password.form';
+import { useForgotPasswordForm, FormFields } from './forgot-password.form';
 
-export const ForgotPassword: React.FC<ForgotPasswordProps> = () => {
+export const ForgotPassword: React.FC<ForgotPasswordProps> = ({ navigation }) => {
   const { handleSubmit, errors, control } = useForgotPasswordForm();
 
-  const onSubmit = () => {
+  const onSubmit = async (fields: FormFields) => {
     console.log('---------------');
     console.log('Forgot password');
     console.log('---------------');
+    await Auth.forgotPassword(fields.email);
+    navigation.navigate(ScreenName.CONFIRM_FORGOT_PASSWORD);
   };
 
   return (
@@ -27,7 +31,8 @@ export const ForgotPassword: React.FC<ForgotPasswordProps> = () => {
           error={errors.email?.message}
         />
 
-        <Button title="Confirm" onPress={handleSubmit(onSubmit)} />
+        <Button containerStyle={styles.button} title="Confirm" onPress={handleSubmit(onSubmit)} />
+        <Button title="Go back" onPress={() => navigation.navigate(ScreenName.SIGN_IN)} />
       </View>
     </KeyboardAvoidingView>
   );
@@ -50,6 +55,9 @@ const styles = StyleSheet.create({
   input: {
     width: '100%',
     maxWidth: 300,
+    marginBottom: 10,
+  },
+  button: {
     marginBottom: 10,
   },
 });

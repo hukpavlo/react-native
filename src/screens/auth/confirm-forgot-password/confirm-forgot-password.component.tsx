@@ -1,17 +1,21 @@
 import React from 'react';
+import { Auth } from 'aws-amplify';
 import { Text, View, StyleSheet, KeyboardAvoidingView } from 'react-native';
 
+import { ScreenName } from '../../../constants';
 import { FormInput, Button } from '../../../components';
 import { ConfirmForgotPasswordProps } from './confirm-forgot-password.props';
-import { useConfirmForgotPasswordForm } from './confirm-forgot-password.form';
+import { useConfirmForgotPasswordForm, FormFields } from './confirm-forgot-password.form';
 
-export const ConfirmForgotPassword: React.FC<ConfirmForgotPasswordProps> = () => {
+export const ConfirmForgotPassword: React.FC<ConfirmForgotPasswordProps> = ({ navigation }) => {
   const { handleSubmit, errors, control } = useConfirmForgotPasswordForm();
 
-  const onSubmit = () => {
+  const onSubmit = async (fields: FormFields) => {
     console.log('---------------');
     console.log('Confirm forgot password');
     console.log('---------------');
+    await Auth.forgotPasswordSubmit(fields.email, fields.confirmationCode, fields.password);
+    navigation.navigate(ScreenName.SIGN_IN);
   };
 
   return (

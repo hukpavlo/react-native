@@ -14,7 +14,7 @@ export const Navigator: React.FC = () => (
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName={ScreenName.CONFIRM_FORGOT_PASSWORD}>
+      initialRouteName={ScreenName.SIGN_IN}>
       <Stack.Screen name={ScreenName.HOME} component={Home} />
       <Stack.Screen name={ScreenName.SIGN_UP} component={SignUp} />
       <Stack.Screen name={ScreenName.SIGN_IN} component={SignIn} />

@@ -2,7 +2,7 @@ import * as Yup from 'yup';
 import { Resolver, useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 
-type FormFields = {
+export type FormFields = {
   email: string;
   password: string;
   lastName: string;

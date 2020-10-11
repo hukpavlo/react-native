@@ -1,17 +1,24 @@
 import React from 'react';
+import { Auth } from 'aws-amplify';
 import { Text, View, StyleSheet, KeyboardAvoidingView } from 'react-native';
 
 import { SignUpProps } from './sign-up.props';
-import { useSignUpForm } from './sign-up.form';
+import { ScreenName } from '../../../constants';
 import { FormInput, Button } from '../../../components';
+import { useSignUpForm, FormFields } from './sign-up.form';
 
-export const SignUp: React.FC<SignUpProps> = () => {
+export const SignUp: React.FC<SignUpProps> = ({ navigation }) => {
   const { handleSubmit, errors, control } = useSignUpForm();
 
-  const onSubmit = () => {
-    console.log('---------------');
-    console.log('Sign up');
-    console.log('---------------');
+  const onSubmit = (fields: FormFields) => {
+    Auth.signUp({
+      username: fields.email,
+      password: fields.password,
+      attributes: {
+        email: fields.email,
+        name: `${fields.firstName} ${fields.lastName}`,
+      },
+    });
   };
 
   return (
@@ -57,6 +64,11 @@ export const SignUp: React.FC<SignUpProps> = () => {
           error={errors.confirmPassword?.message}
         />
 
+        <Button
+          title="Sign in"
+          containerStyle={styles.button}
+          onPress={() => navigation.navigate(ScreenName.SIGN_IN)}
+        />
         <Button title="Sign up" onPress={handleSubmit(onSubmit)} />
       </View>
     </KeyboardAvoidingView>
@@ -80,6 +92,9 @@ const styles = StyleSheet.create({
   input: {
     width: '100%',
     maxWidth: 300,
+    marginBottom: 10,
+  },
+  button: {
     marginBottom: 10,
   },
 });
