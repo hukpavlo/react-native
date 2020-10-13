@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.wafly"
+        applicationId "com.lisle"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

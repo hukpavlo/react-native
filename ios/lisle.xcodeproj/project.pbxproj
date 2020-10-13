@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* waflyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* waflyTests.m */; };
+		00E356F31AD99517003FC87E /* lisleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* lisleTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* waflyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* waflyTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* lisleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* lisleTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A71D8A89F86FF4DE09F4ADB3 /* libPods-wafly-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA7DC3BEA5B689FD6409538 /* libPods-wafly-tvOS.a */; };
-		C6E4F91ED6E4C55EF4B5E9A5 /* libPods-wafly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C1B4856888BCA3A31AF06 /* libPods-wafly.a */; };
-		EAD88F37B788030B96643C92 /* libPods-wafly-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6509C58572AEFD6755A07E07 /* libPods-wafly-tvOSTests.a */; };
-		F2C08524AE43CF2ED1C5D0CE /* libPods-wafly-waflyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35030D1BED8D162E7827359D /* libPods-wafly-waflyTests.a */; };
+		A71D8A89F86FF4DE09F4ADB3 /* libPods-lisle-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA7DC3BEA5B689FD6409538 /* libPods-lisle-tvOS.a */; };
+		C6E4F91ED6E4C55EF4B5E9A5 /* libPods-lisle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C1B4856888BCA3A31AF06 /* libPods-lisle.a */; };
+		EAD88F37B788030B96643C92 /* libPods-lisle-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6509C58572AEFD6755A07E07 /* libPods-lisle-tvOSTests.a */; };
+		F2C08524AE43CF2ED1C5D0CE /* libPods-lisle-lisleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35030D1BED8D162E7827359D /* libPods-lisle-lisleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = wafly;
+			remoteInfo = lisle;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "wafly-tvOS";
+			remoteInfo = "lisle-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* waflyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waflyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* lisleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lisleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* waflyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waflyTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* wafly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wafly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = wafly/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = wafly/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = wafly/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = wafly/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wafly/main.m; sourceTree = "<group>"; };
-		26D8FBFC97FEEE1E5ECDD283 /* Pods-wafly-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-wafly-tvOSTests/Pods-wafly-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* wafly-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wafly-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* wafly-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wafly-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35030D1BED8D162E7827359D /* libPods-wafly-waflyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wafly-waflyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		360768A06B850225063CD82E /* Pods-wafly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly.release.xcconfig"; path = "Target Support Files/Pods-wafly/Pods-wafly.release.xcconfig"; sourceTree = "<group>"; };
-		4EAA4279866BC17A15FD2857 /* Pods-wafly-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-wafly-tvOSTests/Pods-wafly-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C7C1B4856888BCA3A31AF06 /* libPods-wafly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wafly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		626E0BD2FA0AFF9F879CAB68 /* Pods-wafly-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly-tvOS.release.xcconfig"; path = "Target Support Files/Pods-wafly-tvOS/Pods-wafly-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		6509C58572AEFD6755A07E07 /* libPods-wafly-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wafly-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C6229F3D830B1487B70ACC9 /* Pods-wafly-waflyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly-waflyTests.debug.xcconfig"; path = "Target Support Files/Pods-wafly-waflyTests/Pods-wafly-waflyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = wafly/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9ACCBD0E9A81912B468BC1CD /* Pods-wafly-waflyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly-waflyTests.release.xcconfig"; path = "Target Support Files/Pods-wafly-waflyTests/Pods-wafly-waflyTests.release.xcconfig"; sourceTree = "<group>"; };
-		A2231590B68A0C0788550F29 /* Pods-wafly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly.debug.xcconfig"; path = "Target Support Files/Pods-wafly/Pods-wafly.debug.xcconfig"; sourceTree = "<group>"; };
-		A3E679D06499AE69867C7B6E /* Pods-wafly-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wafly-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-wafly-tvOS/Pods-wafly-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BEA7DC3BEA5B689FD6409538 /* libPods-wafly-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wafly-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* lisleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lisleTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* lisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lisle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = lisle/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = lisle/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = lisle/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = lisle/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = lisle/main.m; sourceTree = "<group>"; };
+		26D8FBFC97FEEE1E5ECDD283 /* Pods-lisle-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-lisle-tvOSTests/Pods-lisle-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* lisle-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lisle-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* lisle-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lisle-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35030D1BED8D162E7827359D /* libPods-lisle-lisleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lisle-lisleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360768A06B850225063CD82E /* Pods-lisle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle.release.xcconfig"; path = "Target Support Files/Pods-lisle/Pods-lisle.release.xcconfig"; sourceTree = "<group>"; };
+		4EAA4279866BC17A15FD2857 /* Pods-lisle-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-lisle-tvOSTests/Pods-lisle-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7C1B4856888BCA3A31AF06 /* libPods-lisle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lisle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626E0BD2FA0AFF9F879CAB68 /* Pods-lisle-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle-tvOS.release.xcconfig"; path = "Target Support Files/Pods-lisle-tvOS/Pods-lisle-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6509C58572AEFD6755A07E07 /* libPods-lisle-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lisle-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6229F3D830B1487B70ACC9 /* Pods-lisle-lisleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle-lisleTests.debug.xcconfig"; path = "Target Support Files/Pods-lisle-lisleTests/Pods-lisle-lisleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = lisle/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ACCBD0E9A81912B468BC1CD /* Pods-lisle-lisleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle-lisleTests.release.xcconfig"; path = "Target Support Files/Pods-lisle-lisleTests/Pods-lisle-lisleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2231590B68A0C0788550F29 /* Pods-lisle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle.debug.xcconfig"; path = "Target Support Files/Pods-lisle/Pods-lisle.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E679D06499AE69867C7B6E /* Pods-lisle-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lisle-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-lisle-tvOS/Pods-lisle-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BEA7DC3BEA5B689FD6409538 /* libPods-lisle-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lisle-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C08524AE43CF2ED1C5D0CE /* libPods-wafly-waflyTests.a in Frameworks */,
+				F2C08524AE43CF2ED1C5D0CE /* libPods-lisle-lisleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E4F91ED6E4C55EF4B5E9A5 /* libPods-wafly.a in Frameworks */,
+				C6E4F91ED6E4C55EF4B5E9A5 /* libPods-lisle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71D8A89F86FF4DE09F4ADB3 /* libPods-wafly-tvOS.a in Frameworks */,
+				A71D8A89F86FF4DE09F4ADB3 /* libPods-lisle-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD88F37B788030B96643C92 /* libPods-wafly-tvOSTests.a in Frameworks */,
+				EAD88F37B788030B96643C92 /* libPods-lisle-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* waflyTests */ = {
+		00E356EF1AD99517003FC87E /* lisleTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* waflyTests.m */,
+				00E356F21AD99517003FC87E /* lisleTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = waflyTests;
+			path = lisleTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* wafly */ = {
+		13B07FAE1A68108700A75B9A /* lisle */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = wafly;
+			name = lisle;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				5C7C1B4856888BCA3A31AF06 /* libPods-wafly.a */,
-				BEA7DC3BEA5B689FD6409538 /* libPods-wafly-tvOS.a */,
-				6509C58572AEFD6755A07E07 /* libPods-wafly-tvOSTests.a */,
-				35030D1BED8D162E7827359D /* libPods-wafly-waflyTests.a */,
+				5C7C1B4856888BCA3A31AF06 /* libPods-lisle.a */,
+				BEA7DC3BEA5B689FD6409538 /* libPods-lisle-tvOS.a */,
+				6509C58572AEFD6755A07E07 /* libPods-lisle-tvOSTests.a */,
+				35030D1BED8D162E7827359D /* libPods-lisle-lisleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* wafly */,
+				13B07FAE1A68108700A75B9A /* lisle */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* waflyTests */,
+				00E356EF1AD99517003FC87E /* lisleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B30C70A69E6A0D617AECD369 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* wafly.app */,
-				00E356EE1AD99517003FC87E /* waflyTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* wafly-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* wafly-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* lisle.app */,
+				00E356EE1AD99517003FC87E /* lisleTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* lisle-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* lisle-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		B30C70A69E6A0D617AECD369 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A2231590B68A0C0788550F29 /* Pods-wafly.debug.xcconfig */,
-				360768A06B850225063CD82E /* Pods-wafly.release.xcconfig */,
-				A3E679D06499AE69867C7B6E /* Pods-wafly-tvOS.debug.xcconfig */,
-				626E0BD2FA0AFF9F879CAB68 /* Pods-wafly-tvOS.release.xcconfig */,
-				4EAA4279866BC17A15FD2857 /* Pods-wafly-tvOSTests.debug.xcconfig */,
-				26D8FBFC97FEEE1E5ECDD283 /* Pods-wafly-tvOSTests.release.xcconfig */,
-				7C6229F3D830B1487B70ACC9 /* Pods-wafly-waflyTests.debug.xcconfig */,
-				9ACCBD0E9A81912B468BC1CD /* Pods-wafly-waflyTests.release.xcconfig */,
+				A2231590B68A0C0788550F29 /* Pods-lisle.debug.xcconfig */,
+				360768A06B850225063CD82E /* Pods-lisle.release.xcconfig */,
+				A3E679D06499AE69867C7B6E /* Pods-lisle-tvOS.debug.xcconfig */,
+				626E0BD2FA0AFF9F879CAB68 /* Pods-lisle-tvOS.release.xcconfig */,
+				4EAA4279866BC17A15FD2857 /* Pods-lisle-tvOSTests.debug.xcconfig */,
+				26D8FBFC97FEEE1E5ECDD283 /* Pods-lisle-tvOSTests.release.xcconfig */,
+				7C6229F3D830B1487B70ACC9 /* Pods-lisle-lisleTests.debug.xcconfig */,
+				9ACCBD0E9A81912B468BC1CD /* Pods-lisle-lisleTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* waflyTests */ = {
+		00E356ED1AD99517003FC87E /* lisleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "waflyTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "lisleTests" */;
 			buildPhases = (
 				940E3E4603592D702728154B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = waflyTests;
-			productName = waflyTests;
-			productReference = 00E356EE1AD99517003FC87E /* waflyTests.xctest */;
+			name = lisleTests;
+			productName = lisleTests;
+			productReference = 00E356EE1AD99517003FC87E /* lisleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* wafly */ = {
+		13B07F861A680F5B00A75B9A /* lisle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "wafly" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "lisle" */;
 			buildPhases = (
 				5A8A6BCA9F5B8B3060C26D52 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = wafly;
-			productName = wafly;
-			productReference = 13B07F961A680F5B00A75B9A /* wafly.app */;
+			name = lisle;
+			productName = lisle;
+			productReference = 13B07F961A680F5B00A75B9A /* lisle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* wafly-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* lisle-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wafly-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lisle-tvOS" */;
 			buildPhases = (
 				3170CEE72CE3B86B14E3F9D5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "wafly-tvOS";
-			productName = "wafly-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* wafly-tvOS.app */;
+			name = "lisle-tvOS";
+			productName = "lisle-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* lisle-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* wafly-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* lisle-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wafly-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lisle-tvOSTests" */;
 			buildPhases = (
 				98587F597687C4A45EDE46A3 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "wafly-tvOSTests";
-			productName = "wafly-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* wafly-tvOSTests.xctest */;
+			name = "lisle-tvOSTests";
+			productName = "lisle-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* lisle-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "wafly" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "lisle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* wafly */,
-				00E356ED1AD99517003FC87E /* waflyTests */,
-				2D02E47A1E0B4A5D006451C7 /* wafly-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* wafly-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* lisle */,
+				00E356ED1AD99517003FC87E /* lisleTests */,
+				2D02E47A1E0B4A5D006451C7 /* lisle-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* lisle-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -406,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wafly-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-lisle-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +419,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wafly-waflyTests/Pods-wafly-waflyTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-lisle-lisleTests/Pods-lisle-lisleTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -428,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wafly-waflyTests/Pods-wafly-waflyTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lisle-lisleTests/Pods-lisle-lisleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		58BF091BC8CB265FE72883CC /* [CP] Copy Pods Resources */ = {
@@ -437,7 +437,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wafly/Pods-wafly-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-lisle/Pods-lisle-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -446,7 +446,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wafly/Pods-wafly-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lisle/Pods-lisle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A8A6BCA9F5B8B3060C26D52 /* [CP] Check Pods Manifest.lock */ = {
@@ -464,7 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wafly-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-lisle-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wafly-waflyTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-lisle-lisleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wafly-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-lisle-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* waflyTests.m in Sources */,
+				00E356F31AD99517003FC87E /* lisleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* waflyTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* lisleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* wafly */;
+			target = 13B07F861A680F5B00A75B9A /* lisle */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* wafly-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* lisle-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C6229F3D830B1487B70ACC9 /* Pods-wafly-waflyTests.debug.xcconfig */;
+			baseConfigurationReference = 7C6229F3D830B1487B70ACC9 /* Pods-lisle-lisleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = waflyTests/Info.plist;
+				INFOPLIST_FILE = lisleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wafly.app/wafly";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lisle.app/lisle";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ACCBD0E9A81912B468BC1CD /* Pods-wafly-waflyTests.release.xcconfig */;
+			baseConfigurationReference = 9ACCBD0E9A81912B468BC1CD /* Pods-lisle-lisleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = waflyTests/Info.plist;
+				INFOPLIST_FILE = lisleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wafly.app/wafly";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lisle.app/lisle";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2231590B68A0C0788550F29 /* Pods-wafly.debug.xcconfig */;
+			baseConfigurationReference = A2231590B68A0C0788550F29 /* Pods-lisle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = wafly/Info.plist;
+				INFOPLIST_FILE = lisle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = wafly;
+				PRODUCT_NAME = lisle;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 360768A06B850225063CD82E /* Pods-wafly.release.xcconfig */;
+			baseConfigurationReference = 360768A06B850225063CD82E /* Pods-lisle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = wafly/Info.plist;
+				INFOPLIST_FILE = lisle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = wafly;
+				PRODUCT_NAME = lisle;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3E679D06499AE69867C7B6E /* Pods-wafly-tvOS.debug.xcconfig */;
+			baseConfigurationReference = A3E679D06499AE69867C7B6E /* Pods-lisle-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "wafly-tvOS/Info.plist";
+				INFOPLIST_FILE = "lisle-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.wafly-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.lisle-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 626E0BD2FA0AFF9F879CAB68 /* Pods-wafly-tvOS.release.xcconfig */;
+			baseConfigurationReference = 626E0BD2FA0AFF9F879CAB68 /* Pods-lisle-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "wafly-tvOS/Info.plist";
+				INFOPLIST_FILE = "lisle-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.wafly-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.lisle-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EAA4279866BC17A15FD2857 /* Pods-wafly-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4EAA4279866BC17A15FD2857 /* Pods-lisle-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "wafly-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "lisle-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.wafly-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.lisle-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wafly-tvOS.app/wafly-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lisle-tvOS.app/lisle-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26D8FBFC97FEEE1E5ECDD283 /* Pods-wafly-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 26D8FBFC97FEEE1E5ECDD283 /* Pods-lisle-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "wafly-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "lisle-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.wafly-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.lisle-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wafly-tvOS.app/wafly-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lisle-tvOS.app/lisle-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "waflyTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "lisleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "wafly" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "lisle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wafly-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lisle-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wafly-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lisle-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "wafly" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "lisle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
