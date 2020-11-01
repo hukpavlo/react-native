@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "wafly60b630d0_identitypool_60b630d0",
+    "identityPoolName": "lisle420ca4ed_identitypool_420ca4ed",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "wafly660b630d0",
-    "userPoolName": "wafly60b630d0_userpool_60b630d0",
+    "resourceNameTruncated": "lisle420ca4ed",
+    "userPoolName": "lisle420ca4ed_userpool_420ca4ed",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -18,8 +18,7 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-        "email",
-        "name"
+        "email"
     ],
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
@@ -29,20 +28,11 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "wafly660b630d0_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "lisle4420ca4ed_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "useDefault": "manual",
+    "sharedId": "420ca4ed",
+    "resourceName": "lisle420ca4ed",
     "authSelections": "identityPoolAndUserPool",
-    "resourceName": "wafly60b630d060b630d0",
-    "thirdPartyAuth": false,
-    "usernameAttributes": [
-        "email"
-    ],
-    "userPoolGroups": false,
-    "adminQueries": false,
-    "triggers": "{}",
-    "hostedUI": false,
-    "userPoolGroupList": [],
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",
@@ -55,9 +45,10 @@
             "Arn"
         ]
     },
-    "parentStack": {
-        "Ref": "AWS::StackId"
-    },
-    "permissions": [],
+    "useDefault": "default",
+    "usernameAttributes": [
+        "email"
+    ],
+    "userPoolGroupList": [],
     "dependsOn": []
 }

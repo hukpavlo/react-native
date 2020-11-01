@@ -1,6 +1,6 @@
 {
   "auth": {
-    "wafly60b630d060b630d0": {
+    "lisle420ca4ed": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

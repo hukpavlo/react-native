@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-wafly-dev-232924-authRole",
-      "UnauthRoleArn": "arn:aws:iam::385708539122:role/amplify-wafly-dev-232924-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::385708539122:role/amplify-wafly-dev-232924-authRole",
+      "AuthRoleName": "amplify-lisle-dev-192846-authRole",
+      "UnauthRoleArn": "arn:aws:iam::385708539122:role/amplify-lisle-dev-192846-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::385708539122:role/amplify-lisle-dev-192846-authRole",
       "Region": "eu-central-1",
-      "DeploymentBucketName": "amplify-wafly-dev-232924-deployment",
-      "UnauthRoleName": "amplify-wafly-dev-232924-unauthRole",
-      "StackName": "amplify-wafly-dev-232924",
-      "StackId": "arn:aws:cloudformation:eu-central-1:385708539122:stack/amplify-wafly-dev-232924/76a46270-0c00-11eb-b807-06a563057a14",
-      "AmplifyAppId": "d13gh6lrysw054"
+      "DeploymentBucketName": "amplify-lisle-dev-192846-deployment",
+      "UnauthRoleName": "amplify-lisle-dev-192846-unauthRole",
+      "StackName": "amplify-lisle-dev-192846",
+      "StackId": "arn:aws:cloudformation:eu-central-1:385708539122:stack/amplify-lisle-dev-192846/b538a650-1c67-11eb-b870-0abaa2279058",
+      "AmplifyAppId": "d2wv5tfsqeivpg"
     },
     "categories": {
       "auth": {
-        "wafly60b630d060b630d0": {}
+        "lisle420ca4ed": {}
       }
     }
   }

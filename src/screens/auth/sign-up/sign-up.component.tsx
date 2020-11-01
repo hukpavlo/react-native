@@ -1,11 +1,11 @@
 import React from 'react';
 import { Auth } from 'aws-amplify';
-import { Text, View, StyleSheet, KeyboardAvoidingView } from 'react-native';
+import { Text, View, StyleSheet, KeyboardAvoidingView, SafeAreaView } from 'react-native';
 
 import { SignUpProps } from './sign-up.props';
-import { ScreenName } from '../../../constants';
-import { FormInput, Button } from '../../../components';
 import { useSignUpForm, FormFields } from './sign-up.form';
+import { FormInput, TextButton } from '../../../components';
+import { AppleButton, GoogleButton, Divider } from '../components';
 
 export const SignUp: React.FC<SignUpProps> = ({ navigation }) => {
   const { handleSubmit, errors, control } = useSignUpForm();
@@ -15,31 +15,36 @@ export const SignUp: React.FC<SignUpProps> = ({ navigation }) => {
       username: fields.email,
       password: fields.password,
       attributes: {
-        email: fields.email,
-        name: `${fields.firstName} ${fields.lastName}`,
+        'custom:userId': '213',
       },
     });
   };
 
   return (
-    <KeyboardAvoidingView behavior="height" style={styles.container}>
-      <Text style={styles.text}>Sign up</Text>
+    <SafeAreaView style={styles.container}>
+      <View style={styles.headerButtons}>
+        <TextButton title="Cancel" onPress={() => navigation.goBack()} />
+        <TextButton disabled={true} title="Continue" onPress={handleSubmit(onSubmit)} />
+      </View>
 
-      <View style={styles.form}>
-        <FormInput
-          name="firstName"
-          control={control}
-          placeholder="First name"
-          containerStyle={styles.input}
-          error={errors.firstName?.message}
-        />
-        <FormInput
-          name="lastName"
-          control={control}
-          placeholder="Last name"
-          containerStyle={styles.input}
-          error={errors.lastName?.message}
-        />
+      <KeyboardAvoidingView behavior="height" style={styles.form}>
+        <Text style={styles.text}>Sign up</Text>
+        <View style={styles.inputRow}>
+          <FormInput
+            name="firstName"
+            control={control}
+            placeholder="First name"
+            containerStyle={[styles.input, styles.rowInput]}
+            error={errors.firstName?.message}
+          />
+          <FormInput
+            name="lastName"
+            control={control}
+            placeholder="Last name"
+            containerStyle={[styles.input, styles.rowInput]}
+            error={errors.lastName?.message}
+          />
+        </View>
         <FormInput
           name="email"
           control={control}
@@ -55,23 +60,15 @@ export const SignUp: React.FC<SignUpProps> = ({ navigation }) => {
           containerStyle={styles.input}
           error={errors.password?.message}
         />
-        <FormInput
-          control={control}
-          name="confirmPassword"
-          secureTextEntry={true}
-          containerStyle={styles.input}
-          placeholder="Confirm password"
-          error={errors.confirmPassword?.message}
-        />
 
-        <Button
-          title="Sign in"
-          containerStyle={styles.button}
-          onPress={() => navigation.navigate(ScreenName.SIGN_IN)}
-        />
-        <Button title="Sign up" onPress={handleSubmit(onSubmit)} />
-      </View>
-    </KeyboardAvoidingView>
+        <Text style={styles.passwordRule}>Password should be at least 6 characters.</Text>
+
+        <Divider />
+
+        <GoogleButton />
+        <AppleButton />
+      </KeyboardAvoidingView>
+    </SafeAreaView>
   );
 };
 
@@ -79,22 +76,47 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
+    backgroundColor: '#fff',
     justifyContent: 'center',
   },
+  headerButtons: {
+    width: '100%',
+    flexDirection: 'row',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    justifyContent: 'space-between',
+  },
   text: {
-    fontSize: 50,
+    fontSize: 22,
+    marginBottom: 15,
+    fontWeight: '500',
+    alignSelf: 'flex-start',
   },
   form: {
-    width: '80%',
-    marginTop: 10,
+    flexGrow: 1,
+    width: '100%',
     alignItems: 'center',
+    paddingHorizontal: 20,
+    justifyContent: 'center',
+  },
+  inputRow: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  rowInput: {
+    width: '49%',
   },
   input: {
     width: '100%',
-    maxWidth: 300,
     marginBottom: 10,
   },
   button: {
     marginBottom: 10,
+  },
+  passwordRule: {
+    color: 'grey',
+    fontSize: 15,
+    fontWeight: '300',
   },
 });

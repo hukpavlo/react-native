@@ -19,7 +19,7 @@ const resolver: Resolver<FormFields, object> = yupResolver(
   }),
 );
 
-export const useSignInForm = () =>
+export const useLogInForm = () =>
   useForm<FormFields>({
     defaultValues,
     resolver,

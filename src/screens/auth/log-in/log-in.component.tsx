@@ -2,15 +2,23 @@ import React from 'react';
 import { Auth } from 'aws-amplify';
 import { Text, View, StyleSheet, KeyboardAvoidingView, SafeAreaView } from 'react-native';
 
+import { LogInProps } from './log-in.props';
+import { ScreenName } from '../../../constants';
+import { useLogInForm, FormFields } from './log-in.form';
 import { FormInput, TextButton } from '../../../components';
-import { ForgotPasswordProps } from './forgot-password.props';
-import { useForgotPasswordForm, FormFields } from './forgot-password.form';
+import { AppleButton, GoogleButton, Divider } from '../components';
 
-export const ForgotPassword: React.FC<ForgotPasswordProps> = ({ navigation }) => {
-  const { handleSubmit, errors, control } = useForgotPasswordForm();
+export const LogIn: React.FC<LogInProps> = ({ navigation }) => {
+  const { handleSubmit, errors, control } = useLogInForm();
 
   const onSubmit = (fields: FormFields) => {
-    Auth.forgotPassword(fields.email);
+    Auth.signUp({
+      username: fields.email,
+      password: fields.password,
+      attributes: {
+        'custom:userId': '213',
+      },
+    });
   };
 
   return (
@@ -21,8 +29,7 @@ export const ForgotPassword: React.FC<ForgotPasswordProps> = ({ navigation }) =>
       </View>
 
       <KeyboardAvoidingView behavior="height" style={styles.form}>
-        <Text style={styles.title}>Forgot password</Text>
-        <Text style={styles.subtitle}>We'll email you a code to reset your password</Text>
+        <Text style={styles.text}>Log in</Text>
 
         <FormInput
           name="email"
@@ -31,6 +38,21 @@ export const ForgotPassword: React.FC<ForgotPasswordProps> = ({ navigation }) =>
           containerStyle={styles.input}
           error={errors.email?.message}
         />
+        <FormInput
+          name="password"
+          control={control}
+          placeholder="Password"
+          secureTextEntry={true}
+          containerStyle={styles.input}
+          error={errors.password?.message}
+        />
+
+        <TextButton title="Forgot your password?" onPress={() => navigation.push(ScreenName.FORGOT_PASSWORD)} />
+
+        <Divider />
+
+        <GoogleButton />
+        <AppleButton />
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
@@ -41,6 +63,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#fff',
+    justifyContent: 'center',
   },
   headerButtons: {
     width: '100%',
@@ -49,17 +72,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     justifyContent: 'space-between',
   },
-  title: {
+  text: {
     fontSize: 22,
-    marginBottom: 10,
-    fontWeight: '500',
-    alignSelf: 'flex-start',
-  },
-  subtitle: {
-    fontSize: 15,
-    color: 'gray',
     marginBottom: 15,
-    fontWeight: '400',
+    fontWeight: '500',
     alignSelf: 'flex-start',
   },
   form: {
